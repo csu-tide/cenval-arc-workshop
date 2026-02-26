@@ -15,14 +15,30 @@ Non-Academic Users:
 
 ## Getting this Code
 
-Open a terminal:
-- File > New > Terminal
+1. Open a terminal:
+    - File > New > Terminal
 
 
-Copy and paste the following:
+2. Copy and paste the following:
 
-```bash
-git clone https://github.com/csu-tide/cenval-arc-workshop.git
-```
+    ```bash
+    git clone https://github.com/csu-tide/cenval-arc-workshop.git
+    ```
 
-Hit enter to run the pasted command.
+3. Hit enter to run the pasted command.
+
+## Run the notebook
+- Open the notebook ~/kmeans-cluster-demo.ipynb
+    - Run > Run All Cells
+
+## Run a Python script
+1. Open a terminal:
+2. Copy and paste
+    ```bash
+    python3 kmeans-cluster-script.py
+    ```
+3. Hit enter to run the pasted command
+4. You should export a png named 
+    ```bash
+    kmeans-scatterplots.png
+    ```

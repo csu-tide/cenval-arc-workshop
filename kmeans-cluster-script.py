@@ -15,7 +15,7 @@ from sklearn.datasets import load_iris
 from sklearn.cluster import KMeans
 
 
-def main(out_path: str = "last_two_charts.png") -> None:
+def main(out_path: str = "kmeans-scatterplots.png") -> None:
     # --- Load data (matches the notebook) ---
     iris_dataset = load_iris()
     X_raw = iris_dataset.data
